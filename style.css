@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.card-transition {
+    transition: all 0.6s ease !important;
+}
+
+.card-transition:hover {
+    text-shadow: none !important;
+    box-sizing: border-box !important;
+    cursor: pointer !important;
+    transition: all 0.6s ease !important;
+    -webkit-transform: scale(1.1) !important;
+    -ms-transform: scale(1.1) !important;
+    transform: scale(1.1) !important;
+    z-index: 2;
+}
+
+.container-article {
+    display: flex;
+}
+
+.container-article figure {
+    position: relative;
+    overflow: hidden;
+}
+
+.capa {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(11, 11, 41, 0.7);
+}
+
+.container-social {
+    font-size: 30px;
+}
+
+.container-social a {
+    color: #ffc107;
+}
+
+.container-social a:hover {
+    color: #ffffff;
+}
+
+.nav-footer {
+    text-decoration: none;
+}

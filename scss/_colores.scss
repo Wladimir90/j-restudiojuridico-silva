@@ -1,0 +1,15 @@
+$color_primario: #ffffff;
+$color_secundario: #ffc107;
+
+
+
+.container-social {
+    font-size: 30px;
+
+    a {
+        color: $color_secundario;
+        &:hover {
+            color: $color_primario;
+        }
+    }
+}

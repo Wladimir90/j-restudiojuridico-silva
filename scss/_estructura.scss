@@ -1,0 +1,28 @@
+$fondo_imagenes: rgba(11, 11, 41, 0.7);
+$ancho_maximo: 100%;
+$alto_maximo: 100%;
+
+* {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.container-article {
+    display: flex;
+    
+    figure {
+        position: relative;
+        overflow: hidden;
+
+        .capa {
+            position: absolute;
+            top: 0;
+            width: $ancho_maximo;
+            height: $alto_maximo;
+            background: $fondo_imagenes;
+        }   
+    }   
+}

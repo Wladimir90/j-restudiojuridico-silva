@@ -1,0 +1,13 @@
+.card-transition {
+    transition: all 0.6s ease !important;
+    &:hover {
+        text-shadow: none !important;
+        box-sizing: border-box !important;
+        cursor: pointer !important;
+        transition: all 0.6s ease !important;
+        -webkit-transform: scale(1.1) !important;
+        -ms-transform: scale(1.1) !important;
+        transform: scale(1.1) !important;
+        z-index: 2;
+    }
+}

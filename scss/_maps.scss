@@ -1,0 +1,8 @@
+$redes: (facebook:#3b5998, twitter:#55acee, instagram:#DD2A7B, skype:#00aff0, whatsapp:#4dc247);
+$tamano: (30px);
+
+@each $red-social, $color in $redes {
+    .social-#{$red-social} {
+      color:$color;
+    }
+}

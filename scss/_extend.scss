@@ -1,0 +1,15 @@
+.anuncios {
+    color: black;
+    text-align: center;
+    padding: 5px;
+    border: hidden;
+    border-radius: 2px;
+    background-color: #ffc107;
+}
+
+.anuncios--nuevo {
+    @extend .anuncios;
+    margin-top: 10px;
+    color: white;
+    background-color: #212529;
+}

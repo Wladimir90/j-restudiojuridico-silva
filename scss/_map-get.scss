@@ -1,0 +1,19 @@
+$estilos: (
+    color: black,
+    text-align: center,
+    margin-top: 50px,
+    padding: 5px,
+    border: hidden,
+    border-radius: 2px,
+    background-color: #ffc107,
+);
+
+.bloque {
+    color: map-get($estilos, color);
+    text-align: map-get($estilos, text-align);
+    padding: map-get($estilos, padding);
+    border: map-get($estilos, border);
+    margin-top: map-get($estilos, margin-top);
+    border-radius: map-get($estilos, border-radius);
+    background-color: map-get($estilos, background-color);
+}

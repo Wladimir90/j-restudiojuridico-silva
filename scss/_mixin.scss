@@ -1,0 +1,13 @@
+@mixin style ($color_fuente, $texto_centro, $color_fondo) {
+    color: $color_fuente;
+    text-align: $texto_centro;
+    background-color: $color_fondo;
+}
+
+.hitos {
+    @include style (black, center, #ffc107);
+}
+
+.hitos2 {
+    @include style (white, center, #212529);
+}

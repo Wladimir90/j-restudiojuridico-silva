@@ -1,18 +1,10 @@
 @import "estructura";
 @import "cards";
-@import "maps";
-@import "map-get";
-@import "extend";
-@import "mixin";
+@import "colores";
 
-.container-hitos {
-    margin-left: 60px;
-    margin-right: 60px;
-    padding-top: 50px;
-}
-
-.container-social {
-    font-size: 30px;
+.icons-especialidades {
+    font-size: 25px;
+    color: black;
 }
 
 .nav-footer {

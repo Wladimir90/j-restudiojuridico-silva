@@ -28,60 +28,16 @@ body {
     transform: scale(1.1) !important;
     z-index: 2; }
 
-.social-facebook {
-  color: #3b5998; }
-
-.social-twitter {
-  color: #55acee; }
-
-.social-instagram {
-  color: #DD2A7B; }
-
-.social-skype {
-  color: #00aff0; }
-
-.social-whatsapp {
-  color: #4dc247; }
-
-.bloque {
-  color: black;
-  text-align: center;
-  padding: 5px;
-  border: hidden;
-  margin-top: 50px;
-  border-radius: 2px;
-  background-color: #ffc107; }
-
-.anuncios, .anuncios--nuevo {
-  color: black;
-  text-align: center;
-  padding: 5px;
-  border: hidden;
-  border-radius: 2px;
-  background-color: #ffc107; }
-
-.anuncios--nuevo {
-  margin-top: 10px;
-  color: white;
-  background-color: #212529; }
-
-.hitos {
-  color: black;
-  text-align: center;
-  background-color: #ffc107; }
-
-.hitos2 {
-  color: white;
-  text-align: center;
-  background-color: #212529; }
-
-.container-hitos {
-  margin-left: 60px;
-  margin-right: 60px;
-  padding-top: 50px; }
-
 .container-social {
   font-size: 30px; }
+  .container-social a {
+    color: #ffc107; }
+    .container-social a:hover {
+      color: #ffffff; }
+
+.icons-especialidades {
+  font-size: 25px;
+  color: black; }
 
 .nav-footer {
   text-decoration: none; }
